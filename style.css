@@ -1,0 +1,19 @@
+
+
+h1 { 
+	color: red
+}
+.pad {
+	margin: 5px;
+}
+
+.outerblue {
+	border: 2px solid blue;
+	padding: 10px;
+	
+}
+.innerorange {
+	border: 2px solid orange;
+	padding: 10px;
+	
+}
