@@ -11,26 +11,28 @@
 	<h1> "MIGHTY DUCKS" </h1>
 	<div class="carousel-inner outerblue" role="listbox">
 		<div class="jumbotron">
-    	<h1> Mighty Ducks</h1>
-    	<p><a class="btn btn-primary btn-lg" href='#' role="button">Learn more</a></p>
+			<h1> Mighty Ducks</h1>
+			<p><a class="btn btn-primary btn-lg" href='#' role="button">Learn More</a></p>
 		</div>
-    <div class="item active innerorange"> <!-- These are the first two images -->
-      <div class="col-xs-4 grid-cell pad"> 
+		<div class="item active innerorange"> <!-- These are the first two images -->
+			<div class="col-xs-4 grid-cell pad"> 
 				<img src="http://placehold.it/350x150">
 			</div>
-	  	<div class="col-xs-4 grid-cell pad"> 
+			<div class="col-xs-4 grid-cell pad"> 
 				<img src="http://placehold.it/350x150">
-	    </div>	
-    </div> <!-- Ending div for item active class aka images -->
-    <div class="item active innerorange">
-   		<div class="col-xs-4 grid-cell pad">
-   			<img src="http://placehold.it/350x150">
-      </div>    
-    	<div class="col-xs-4 grid-cell pad">
-    		<img src="http://placehold.it/350x150">
-    	</div>		
-    </div>
-  </div>
+			</div>	
+		</div> <!-- Ending div for item active class aka images -->
+		<div class="item active innerorange">
+			<div class="col-xs-4 grid-cell pad">
+				<img src="http://placehold.it/350x150">
+			</div>    
+			<div class="col-xs-4 grid-cell pad">
+				<img src="http://placehold.it/350x150">
+				<div Click <a href="http://www.yahoo.com">here</a>
+				</div>	
+			</div>		
+		</div>
+	</div>
 
 	<div class="col-sm-4">
 		<p> Second column.</p>
@@ -44,15 +46,81 @@
 		<p> Duck. </p>
 		<p> Duck. </p>
 		<p> Goose. </p>
-<a class="btn btn-default" href="#" role="button">Link</a>
-<button class="btn btn-default" type="submit">Button</button>
-<input class="btn btn-default" type="button" value="Input">
-<input class="btn btn-default" type="submit" value="Submit">
-	</div>
-	</div>
-	</div>
-</body>
-</html>
+
+		<form action="" method="post">
+			Your name<br>
+			<input type="text" name="cf_name"><br>
+			Your e-mail<br>
+			<input type="text" name="cf_email"><br>
+			Message<br>
+		
+				<input type="submit" value="Clickable Button">
+				<input type="reset" value="Clear">
+			</form>
+			<input type="submit" value="Clickable Button">
+
+			
+
+		<!-- 	<button class="btn btn-default" type="submit">Button</button>
+			<input class="btn btn-default" type="button" value="Input">
+			<input class="btn btn-default" type="submit" value="Submit">
+			<a class="btn btn-default" href="#" role="button">Link</a> -->
+
+		</div>
+
+		<script src="app.js"></script>
+		<form class="form-horizontal" role="form" method="post" action="index.php">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="4" name="message"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <input id="submit" name="submit" type="submit" value="Send" c
+            <input type="submit" onclick="return confirm('Are you sure?')" /
+
+            class="btn btn-primary">
+
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-2">
+            <! Will be used to display an alert to the user>
+            <script>
+ function display_alert()
+ {
+ alert("");
+ }
+ </script>
+
+ <body>
+ <input type="button" onclick="display_alert()" value="Display alert box">
+ </body>
+        </div>
+    </div>
+</form>
+	</body>
+	</html>
 
 
 
